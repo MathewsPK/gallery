@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Bird Gallery{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">  <!-- Assuming static CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Bird Gallery</h1>
+        
+        <!-- Navigation Buttons in the header (Bird Gallery section) -->
+        <div class="header-nav">
+            <a href="{% url 'birds' %}" class="button back-button">Back to Birds</a>
+            <a href="/" class="button home-button">Home</a>
+        </div>
+        
+        <!-- Optional block for child templates to add/customize header content -->
+        {% block header_extra %}{% endblock %}
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

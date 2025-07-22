@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ bird.name }}{% endblock %}
+
+{% block content %}
+<div class="bird-detail">
+    <div class="bird-image-box">
+        <img src="{{ bird.image.url }}" alt="{{ bird.name }}">
+    </div>
+    
+    <div class="bird-name-box">
+        <h2>{{ bird.name }}</h2>
+    </div>
+    
+    <div class="bird-description-box">
+        <p>{{ bird.description }}</p>
+    </div>
+    
+    {% with youtube_id=bird.get_youtube_id %}
+        {% if youtube_id %}
+        <div class="bird-video-box">
+            <iframe width="100%" height="315"
+                src="https://www.youtube.com/embed/{{ youtube_id }}"
+                title="{{ bird.name }} video"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </div>
+        {% endif %}
+    {% endwith %}
+</div>
+{% endblock %}

@@ -1,0 +1,452 @@
+[
+    {
+        "model": "homeapp.bird",
+        "pk": 1,
+        "fields": {
+            "name": "Sparrow",
+            "image": "birds/sparrow.jpg",
+            "description": "A small passerine bird common in urban areas, known for its chirping calls."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 2,
+        "fields": {
+            "name": "Eagle",
+            "image": "birds/eagle.jpg",
+            "description": "A large bird of prey with powerful talons and keen eyesight for hunting."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 3,
+        "fields": {
+            "name": "Penguin",
+            "image": "birds/penguin.jpg",
+            "description": "A flightless bird adapted to aquatic life in cold regions."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 4,
+        "fields": {
+            "name": "Owl",
+            "image": "birds/owl.jpg",
+            "description": "A nocturnal bird with silent flight and excellent night vision."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 5,
+        "fields": {
+            "name": "Flamingo",
+            "image": "birds/flamingo.jpg",
+            "description": "A tall wading bird with pink plumage, often found in flocks near water."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 6,
+        "fields": {
+            "name": "Peacock",
+            "image": "birds/peacock.jpg",
+            "description": "A bird known for its iridescent tail feathers displayed in courtship."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 7,
+        "fields": {
+            "name": "Crow",
+            "image": "birds/crow.jpg",
+            "description": "An intelligent black bird often seen in groups and known for problem-solving."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 8,
+        "fields": {
+            "name": "Robin",
+            "image": "birds/robin.jpg",
+            "description": "A small songbird with a red breast, common in gardens."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 9,
+        "fields": {
+            "name": "Hummingbird",
+            "image": "birds/hummingbird.jpg",
+            "description": "A tiny bird capable of hovering, with rapid wing beats."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 10,
+        "fields": {
+            "name": "Parrot",
+            "image": "birds/parrot.jpg",
+            "description": "A colorful bird known for mimicking human speech."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 11,
+        "fields": {
+            "name": "Swan",
+            "image": "birds/swan.jpg",
+            "description": "A graceful waterbird with a long neck, often symbolizing elegance."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 12,
+        "fields": {
+            "name": "Pigeon",
+            "image": "birds/pigeon.jpg",
+            "description": "A common urban bird used historically for messaging."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 13,
+        "fields": {
+            "name": "Falcon",
+            "image": "birds/falcon.jpg",
+            "description": "A fast-flying raptor known for its diving speed."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 14,
+        "fields": {
+            "name": "Woodpecker",
+            "image": "birds/woodpecker.jpg",
+            "description": "A bird that pecks at trees to find insects."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 15,
+        "fields": {
+            "name": "Kingfisher",
+            "image": "birds/kingfisher.jpg",
+            "description": "A brightly colored bird that dives for fish."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 16,
+        "fields": {
+            "name": "Heron",
+            "image": "birds/heron.jpg",
+            "description": "A long-legged wading bird that spears fish."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 17,
+        "fields": {
+            "name": "Magpie",
+            "image": "birds/magpie.jpg",
+            "description": "A black-and-white bird known for collecting shiny objects."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 18,
+        "fields": {
+            "name": "Dove",
+            "image": "birds/dove.jpg",
+            "description": "A symbol of peace, with gentle cooing calls."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 19,
+        "fields": {
+            "name": "Finch",
+            "image": "birds/finch.jpg",
+            "description": "A small seed-eating songbird with a conical beak."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 20,
+        "fields": {
+            "name": "Raven",
+            "image": "birds/raven.jpg",
+            "description": "A large, intelligent black bird from folklore."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 21,
+        "fields": {
+            "name": "Stork",
+            "image": "birds/stork.jpg",
+            "description": "A large bird associated with delivering babies in myths."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 22,
+        "fields": {
+            "name": "Pelican",
+            "image": "birds/pelican.jpg",
+            "description": "A waterbird with a large throat pouch for catching fish."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 23,
+        "fields": {
+            "name": "Toucan",
+            "image": "birds/toucan.jpg",
+            "description": "A tropical bird with a oversized, colorful bill."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 24,
+        "fields": {
+            "name": "Ostrich",
+            "image": "birds/ostrich.jpg",
+            "description": "The world's largest bird, flightless and fast-running."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 25,
+        "fields": {
+            "name": "Albatross",
+            "image": "birds/albatross.jpg",
+            "description": "A seabird with the longest wingspan, gliding over oceans."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 26,
+        "fields": {
+            "name": "Blue Jay",
+            "image": "birds/bluejay.jpg",
+            "description": "A vibrant blue bird with a crest and loud calls."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 27,
+        "fields": {
+            "name": "Cardinal",
+            "image": "birds/cardinal.jpg",
+            "description": "A red songbird common in North America."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 28,
+        "fields": {
+            "name": "Canary",
+            "image": "birds/canary.jpg",
+            "description": "A small yellow songbird often kept as a pet."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 29,
+        "fields": {
+            "name": "Quail",
+            "image": "birds/quail.jpg",
+            "description": "A small ground-dwelling game bird."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 30,
+        "fields": {
+            "name": "Turkey",
+            "image": "birds/turkey.jpg",
+            "description": "A large bird native to North America, often domesticated."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 31,
+        "fields": {
+            "name": "Emu",
+            "image": "birds/emu.jpg",
+            "description": "A large flightless bird from Australia."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 32,
+        "fields": {
+            "name": "Kiwi",
+            "image": "birds/kiwi.jpg",
+            "description": "A flightless bird from New Zealand with a long beak."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 33,
+        "fields": {
+            "name": "Puffin",
+            "image": "birds/puffin.jpg",
+            "description": "A seabird with a colorful beak, known for burrowing."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 34,
+        "fields": {
+            "name": "Gull",
+            "image": "birds/gull.jpg",
+            "description": "A coastal bird often seen scavenging near shores."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 35,
+        "fields": {
+            "name": "Vulture",
+            "image": "birds/vulture.jpg",
+            "description": "A scavenging raptor that feeds on carrion."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 36,
+        "fields": {
+            "name": "Condor",
+            "image": "birds/condor.jpg",
+            "description": "A large New World vulture with an impressive wingspan."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 37,
+        "fields": {
+            "name": "Ibis",
+            "image": "birds/ibis.jpg",
+            "description": "A wading bird with a curved bill."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 38,
+        "fields": {
+            "name": "Lark",
+            "image": "birds/lark.jpg",
+            "description": "A ground-nesting songbird known for its melodious flight song."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 39,
+        "fields": {
+            "name": "Thrush",
+            "image": "birds/thrush.jpg",
+            "description": "A songbird that feeds on insects and berries."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 40,
+        "fields": {
+            "name": "Warbler",
+            "image": "birds/warbler.jpg",
+            "description": "A small, insectivorous songbird with varied plumage."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 41,
+        "fields": {
+            "name": "Starling",
+            "image": "birds/starling.jpg",
+            "description": "A gregarious bird known for murmurations."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 42,
+        "fields": {
+            "name": "Swallow",
+            "image": "birds/swallow.jpg",
+            "description": "An aerial insectivore with forked tail."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 43,
+        "fields": {
+            "name": "Martin",
+            "image": "birds/martin.jpg",
+            "description": "A type of swallow that nests in colonies."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 44,
+        "fields": {
+            "name": "Goose",
+            "image": "birds/goose.jpg",
+            "description": "A waterfowl known for migratory V-formations."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 45,
+        "fields": {
+            "name": "Duck",
+            "image": "birds/duck.jpg",
+            "description": "A swimming bird with webbed feet."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 46,
+        "fields": {
+            "name": "Crane",
+            "image": "birds/crane.jpg",
+            "description": "A tall bird with elaborate courtship dances."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 47,
+        "fields": {
+            "name": "Rail",
+            "image": "birds/rail.jpg",
+            "description": "A secretive marsh bird with a narrow body."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 48,
+        "fields": {
+            "name": "Snipe",
+            "image": "birds/snipe.jpg",
+            "description": "A wading bird with a long straight bill."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 49,
+        "fields": {
+            "name": "Sandpiper",
+            "image": "birds/sandpiper.jpg",
+            "description": "A shorebird that probes mud for food."
+        }
+    },
+    {
+        "model": "homeapp.bird",
+        "pk": 50,
+        "fields": {
+            "name": "Egret",
+            "image": "birds/egret.jpg",
+            "description": "A white heron-like bird found in wetlands."
+        }
+    }
+]
